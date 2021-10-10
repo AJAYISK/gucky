@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>form</title>
+<style >
+    *{max-width: 300px;}
+    body{background-repeat: no-repeat;background-attachment:fixed;background-size: cover;
+        font-family:sans-serif;
+        padding:0;margin:0;}
+    .login-box{
+        position:absolute;
+        top:25%;left:36%;transform: translate(-50 -50);margin:25px 30px;}
+
+    .login-box h1{border-bottom: 5px solid green;
+        float:left;
+        font-size:30px;
+        padding:13px;color:white;}
+
+        .textbox{overflow:hidden;
+            border-bottom: 2px solid green;
+        width:100%;
+        font-size: 20px;
+        margin:8px 0;
+        padding:8px 0;}
+
+        .textbox i{width:26%;
+        float:left;
+    text-align: center;}
+
+    .textbox input{background:none;
+    border:none;
+outline:none;color:white;width:80%;
+float:left;
+margin:0 10px;font-size:14px;}
+
+.btn{width:100%;background:none;
+    border:2px solid green;
+    padding:15px;font-size: 18px;
+color:white;
+text-align: center;}
+    </style>
+    <body style="background-image:url(atoms6.jpg)" >
+        <form>
+        <div class="login-box">
+        <h1>LOGIN</h1>
+        <div class="textbox">
+            <input type="text" id="username" placeholder="username">
+        </div>
+        <div class="textbox">
+            <input type="password" id="pwd" placeholder="password" required>
+            </div>
+            <br>
+            <div>
+    <input class="btn" type="submit" value="sign in" name="submit">
+    </div>
+</div>
+</form>
+    </body>
